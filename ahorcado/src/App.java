@@ -31,6 +31,7 @@ public class App {
                 if (palabraSecreta.charAt(i) == letra) {
                     letrasAdivinadas[i] = letra;
                     letraCorrecta = true;
+                    
                 }
             }
 
@@ -53,6 +54,7 @@ public class App {
                 System.out.println("Lo siento, has perdido. La palabra secreta era: " + palabraSecreta);       
             }
             
+            scanner.close();
         }
         
     }
